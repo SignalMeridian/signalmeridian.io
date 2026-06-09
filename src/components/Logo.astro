@@ -6,23 +6,15 @@ const { class: cls = 'h-7 w-auto' } = Astro.props;
 ---
 
 <a href="/" class={`inline-flex items-center gap-2.5 group ${cls}`} aria-label="Signal Meridian home">
-  <svg
-    viewBox="0 0 36 36"
-    fill="none"
+  <img
+    src="https://imagedelivery.net/9i0Mt_dC7lopRIG36ZQvKw/Signal-Meridian-logo-logo-1-2026-06-09-132622340Z-cb964339/public"
+    alt=""
     aria-hidden="true"
-    class="h-7 w-7 text-signal transition-transform duration-500 group-hover:rotate-[8deg]"
-  >
-    <circle cx="18" cy="18" r="15.5" stroke="currentColor" stroke-opacity="0.35" stroke-width="1" />
-    <path
-      d="M2.5 18 H10 l3 -8 4 16 4 -10 3 6 H33.5"
-      stroke="currentColor"
-      stroke-width="1.6"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-    <circle cx="18" cy="18" r="2.2" fill="currentColor" />
-  </svg>
-  <span class="font-semibold tracking-tight text-slate-100 text-[15px]">
-    Signal<span class="text-signal">·</span>Meridian
-  </span>
+    class="h-7 w-7 transition-transform duration-500 group-hover:rotate-[8deg]"
+  />
+  <img
+    src="https://imagedelivery.net/9i0Mt_dC7lopRIG36ZQvKw/Signal-Meridian-namelogo-2-2026-06-09-132623796Z-9129b3f6/public"
+    alt="Signal Meridian"
+    class="h-[16px] w-auto"
+  />
 </a>
