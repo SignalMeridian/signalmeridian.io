@@ -1,16 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-  <style>
-    @media (prefers-color-scheme: dark) {
-      .fg { stroke: #ffffff; fill: #ffffff; }
-      .bg { fill: #05080d; }
-    }
-    @media (prefers-color-scheme: light) {
-      .fg { stroke: #05080d; fill: #05080d; }
-      .bg { fill: #ffffff; }
-    }
-  </style>
-  <rect width="36" height="36" rx="8" class="bg"/>
-  <circle cx="18" cy="18" r="14" fill="none" class="fg" stroke-opacity="0.35"/>
-  <path d="M3 18 H10 l3 -8 4 16 4 -10 3 6 H33" fill="none" class="fg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="18" cy="18" r="2.4" class="fg"/>
+  <rect width="36" height="36" rx="8" fill="#05080d"/>
+  <circle cx="18" cy="18" r="14" fill="none" stroke="#ffffff" stroke-opacity="0.35"/>
+  <path d="M3 18 H10 l3 -8 4 16 4 -10 3 6 H33" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="18" cy="18" r="2.4" fill="#ffffff"/>
 </svg>
